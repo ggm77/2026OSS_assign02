@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+            font: 100% Lucida Sans, Verdana;
+            line-height: 26px;
+        }
+        header {
+            border-radius: 4px;
+            color: white;
+            background-color: #04AA6D;
+            padding: 15px;
+            margin: 4px;
+        }
+        #title {
+            margin: 0;
+            padding: 0;
+            font-size: 2em;
+            font-weight: bold;
+            margin-inline: 0;
+        }
+        #sub_title {
+            padding-top: 0px;
+            margin: 0px;
+        }
+
+        main {
+            display: flex;
+        }
+
+        nav {
+            width: 200px;
+            min-width: 200px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            list-style-type: none;
+            padding: 2px;
+            margin: 4px;
+            border-radius: 4px;
+        }
+
+        a {
+            color: black;
+        }
+
+        #selected {
+            background-color: #04AA6D;
+            color: white;
+            font-weight: bold;
+        }
+
+        #content {
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        #sidebar {
+            background-color: #32a4e7;
+            color: white;
+            padding: 10px;
+            margin: 4px;
+            border-radius: 4px;
+            min-width: 180px;
+            max-width: 180px;
+        }
+
+        h3 {
+            font-size: 1.17em;
+            font-weight: bold;
+        }
+
+        #sidebar_content {
+            margin-block: 1em;
+            margin-inline: 0px;
+        }
+
+        footer {
+            border: 1px solid #d4d4d4;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+            border-radius: 4px;
+            margin: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">Welcome to My Homepage</h1>
+        <p id="sub_title">Use the menu to select different Stylesheets</p>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li id="selected">Stylesheet 1</li>
+                <li>Stylesheet 2</li>
+                <li>Stylesheet 3</li>
+                <li>Stylesheet 4</li>
+                <li>No Stylesheet</li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>
+                This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+                <br>
+                <a href="">Stylesheet1,</a> <a href="">Stylesheet2,</a> <a href="">Stylesheet3,</a> <a href="">Stylesheet4.</a>
+            </p>
+
+            <h2>No Styles</h2>
+            <p>
+                This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                <br>
+                <a href="">No Stylesheet.</a>
+            </p>
+        </div>
+
+        <div id="sidebar">
+            <h3>Side-Bar</h3>
+            <p id="sidebar_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p style="margin: 0;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    </footer>
+</body>
+</html>
